@@ -1,0 +1,82 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 783,
+       "width": 1292,
+       "x": 0,
+       "y": 0
+    },
+    "name": "jleonardo427@JL-Laptop: ~",
+    "percent": 0.6,
+    "swallows": [
+       {
+       // "class": "^Gnome\\-terminal$",
+       // "instance": "^Gnome\\-terminal$",
+       // "title": "^jleonardo427\\@JL\\-Laptop\\:\\ \\~$",
+       // "transient_for": "^$",
+        "window_role": "^vim$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.4,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 783,
+               "width": 1292,
+               "x": 0,
+               "y": 0
+            },
+            "name": "jleonardo427@JL-Laptop: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^Gnome\\-terminal$",
+               // "title": "^jleonardo427\\@JL\\-Laptop\\:\\ \\~$",
+               // "transient_for": "^$",
+                "window_role": "^console$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 783,
+               "width": 1292,
+               "x": 0,
+               "y": 0
+            },
+            "name": "jleonardo427@JL-Laptop: ~",
+            "percent": 0.5,
+            "swallows": [
+               {
+               // "class": "^Gnome\\-terminal$",
+               // "instance": "^Gnome\\-terminal$",
+               // "title": "^jleonardo427\\@JL\\-Laptop\\:\\ \\~$",
+               // "transient_for": "^$",
+                "window_role": "^terminal$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
